@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">School App</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="manage_grades">Manage Grades</string>
+    <string name="attendance_records">Attendance Records</string>
+    <string name="grade_management">Grade Management</string>
+    <string name="select_student">Select Student</string>
+    <string name="subject">Subject</string>
+    <string name="grade">Grade</string>
+    <string name="semester">Semester</string>
+    <string name="year">Year</string>
+    <string name="gpa">GPA</string>
+    <string name="add_grade">Add Grade</string>
+    <string name="date">Date</string>
+    <string name="status">Status</string>
+</resources>
