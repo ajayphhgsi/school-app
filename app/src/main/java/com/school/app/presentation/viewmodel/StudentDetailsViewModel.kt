@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 class StudentDetailsViewModel(
     private val getStudentUseCase: GetStudentUseCase,
     private val getStudentsUseCase: GetStudentsUseCase,
-    private val currentUser: User // Assume this is passed or injected
+    private val currentUser: User = User("", "", "", Role.ADMIN, "") // Default to admin for now
 ) : ViewModel() {
 
     private val _student = MutableStateFlow<Student?>(null)
